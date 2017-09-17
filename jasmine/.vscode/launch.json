@@ -14,8 +14,8 @@
                 "--config=jasmine.json"
             ],
             "outFiles": [
-                "${workspaceRoot}/dist/*.js",
-                "${workspaceRoot}/dist/**/*.js"
+                "${workspaceRoot}/dist/tests/*.js",
+                "${workspaceRoot}/dist/tests/**/*.js"
             ]
         },
         {
