@@ -3,11 +3,12 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
-    "sourceMap": true,
+    "baseUrl": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitAny": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "sourceMap": true
   },
   "typeRoots": [
     "./node_modules/@types"
