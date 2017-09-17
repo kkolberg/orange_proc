@@ -1,0 +1,16 @@
+{
+  "generator-ng-fullstack": {
+    "appName": "mocha",
+    "username": "user.name",
+    "userEmail": "user.email@example.com",
+    "stack": "server",
+    "repoHostUrl": "github.com",
+    "userNameSpace": "user.name",
+    "client": "",
+    "server": "node",
+    "nodeWebFrameworkServer": "express",
+    "transpilerServer": "typescript",
+    "secure": false,
+    "testsSeparated": true
+  }
+}
