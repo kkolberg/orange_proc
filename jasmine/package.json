@@ -10,7 +10,7 @@
     "test-server": "npm run build-dist && jasmine --config=jasmine.json",
     "coverage-server": "npm run build-dist && npm run coverage && npm run mapping-coverage",
     "coverage": "ts-node node_modules/istanbul/lib/cli.js cover --include-all-sources true --root \"dist\" -x \"*_test.ts\" node_modules/jasmine/bin/jasmine.js -- JASMINE_CONFIG_PATH=jasmine.json",
-    "mapping-coverage": "./node_modules/.bin/remap-istanbul -i coverage/coverage.json -o html-report -t html"
+    "mapping-coverage": "./node_modules/.bin/remap-istanbul -i coverage/coverage.json -o coverage/html-report -t html"
   },
   "dependencies": {
     "@types/bluebird": "^3.5.11",
